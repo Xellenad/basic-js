@@ -12,6 +12,6 @@ module.exports = function dateSample(sampleActivity) {
   const i = Math.log(2) / HALF_LIFE_PERIOD;
   const j = Math.log(MODERN_ACTIVITY / sampleActivity) / i;
 
-  return parseFloat((j).toFixed(2));
+  return parseFloat((j).toFixed());
 
 };
